@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Amit Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "Computer Science",
+    "year": 2,
+    "email": "amit.sharma@example.com",
+    "marks": {
+      "math": 78,
+      "science": 82,
+      "english": 74
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pema Bhutia",
+    "age": 21,
+    "gender": "Female",
+    "course": "Business Management",
+    "year": 3,
+    "email": "pema.bhutia@example.com",
+    "marks": {
+      "accounting": 88,
+      "marketing": 91,
+      "english": 79
+    }
+  },
+  {
+    "id": 3,
+    "name": "Rahul Verma",
+    "age": 19,
+    "gender": "Male",
+    "course": "Mechanical Engineering",
+    "year": 1,
+    "email": "rahul.verma@example.com",
+    "marks": {
+      "physics": 85,
+      "math": 90,
+      "drawing": 76
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sonam Lepcha",
+    "age": 22,
+    "gender": "Female",
+    "course": "Environmental Science",
+    "year": 4,
+    "email": "sonam.lepcha@example.com",
+    "marks": {
+      "ecology": 92,
+      "biology": 87,
+      "chemistry": 80
+    }
+  },
+  {
+    "id": 5,
+    "name": "Karan Singh",
+    "age": 20,
+    "gender": "Male",
+    "course": "Information Technology",
+    "year": 2,
+    "email": "karan.singh@example.com",
+    "marks": {
+      "programming": 89,
+      "databases": 84,
+      "networking": 77
+    }
+  }
+]

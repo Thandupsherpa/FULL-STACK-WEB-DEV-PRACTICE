@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: green;
+        font-size: 5rem;
+        text-shadow: 2px 2px 2px rgb(0, 255, 21);
+        user-select: none;
+    }
+</style>
+<body>
+    <div id="text"></div>
+    <script>
+        const msg = "Your Device Has Been Hacked"
+        let i=0;
+        function type(){
+            if (i < msg.length) {
+                text.innerHTML += msg.charAt(i);
+                i++;
+                setTimeout(type,100); 
+            }
+        }
+        type()
+    </script>
+</body>
+</html>
